@@ -8,7 +8,15 @@ electronsAroundCore.prototype.add = function electronsAroundCore(dice) {
     else if(JSON.stringify(dice) === JSON.stringify([2,2,3,3])){
       return 4;
     }
-    return 0;  
+    let sum = 0;
+    for(let i = 0; i < dice.length; i++)
+    {
+        if(dice[i]%2 == 1)
+        {
+            sum = sum + 1;
+        }
+    }
+    return sum;  
 }
 
 
