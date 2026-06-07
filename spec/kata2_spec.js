@@ -23,4 +23,5 @@ describe('electronsAroundCore', function() {
 	it("should return 6 for an array with elements '6, 6, 4, 4, 1, 3'", function(){
 		expect(electrons.add([2,2,2,2,4,6])).toEqual(0);
 	});
+	
 });
