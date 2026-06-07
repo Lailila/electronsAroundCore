@@ -5,8 +5,7 @@ electronsAroundCore.prototype.add = function electronsAroundCore(dice) {
     {
         return 6;
     }
-    return 0;
-
+    return 0;  
 }
 
 
